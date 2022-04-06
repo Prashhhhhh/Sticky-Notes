@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🗒 Sticky Notes</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+  </head>
+  <body>
+    
+    <div id = "modal">
+      <div id = "innermodal">
+        <textarea id = "userinput" placeholder = "Note...."></textarea>
+        <i class="fa-solid fa-circle-xmark" onclick = 'hide()'></i>
+      </div>
+    </div>
+    <h1 id = "header"><i class="fa-solid fa-note-sticky"></i><b> Sticky Notes</b></h1>
+    <button id = 'add' onclick = 'shownote()'><b>Add Note</b></button>
+    <div id = "all_notes">
+      
+    </div>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
